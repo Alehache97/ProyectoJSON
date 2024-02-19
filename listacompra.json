@@ -1,0 +1,287 @@
+{
+  "lista_de_la_compra": [
+    {
+      "producto": "Leche",
+      "supermercados": [
+        {
+            "nombre": "Mercadona",
+            "direccion": "Av. de la Democracia, 3",
+            "geolocalizacion": {
+            "latitud": 40.38293898434755,
+            "longitud": -3.6258071729856525
+          },
+          "productos": [
+            {
+              "nombre": "Leche semidesnatada Covap",
+              "oferta": true,
+              "vigencia": {
+                "inicio": "2023-04-07",
+                "fin": "2023-04-13"
+              },
+              "habitual": false,
+              "unidades": 1,
+              "unidad_medida": "Litro",
+              "precio": 0.85,
+              "adquirido": false
+            },
+            {
+              "nombre": "Leche semidesnatada Pascual",
+              "oferta": false,
+              "vigencia": null,
+              "habitual": true,
+              "unidades": 1,
+              "unidad_medida": "Litro",
+              "precio": 1.05,
+              "adquirido": false
+            }
+          ]
+        },
+        {
+            "nombre": "Carrefour",
+            "direccion": "Av de las Suertes, s/n",
+            "geolocalizacion": {
+            "latitud": 40.36814959094298, 
+            "longitud": -3.601161972985976
+          },
+          "productos": [
+            {
+              "nombre": "Leche de almendra",
+              "oferta": false,
+              "vigencia": null,
+              "habitual": true,
+              "unidades": 1,
+              "unidad_medida": "Litro",
+              "precio": 0.89,
+              "adquirido": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "producto": "Pan",
+      "supermercados": [
+        {
+            "nombre": "Mercadona",
+            "direccion": "Av. de la Democracia, 3",
+            "geolocalizacion": {
+            "latitud": 40.38293898434755,
+            "longitud": -3.6258071729856525
+          },
+          "productos": [
+            {
+              "nombre": "Barra de pan de Pueblo",
+              "oferta": true,
+              "vigencia": {
+                "inicio": "2023-04-07",
+                "fin": "2023-04-13"
+              },
+              "habitual": false,
+              "unidades": 1,
+              "unidad_medida": "Unidad",
+              "precio": 0.40,
+              "adquirido": false
+            },
+            {
+              "nombre": "Pan de molde integral",
+              "oferta": true,
+              "vigencia": {
+                "inicio": "2023-04-07",
+                "fin": "2023-04-13"},
+              "habitual": true,
+              "unidades": 1,
+              "unidad_medida": "Unidad",
+              "precio": 0.99,
+              "adquirido": true
+            }
+          ]
+        },
+           {
+            "nombre": "Dia",
+            "direccion": " C. de la Gavia Seca, 3",
+            "geolocalizacion": {
+            "latitud": 40.3803180417176,
+            "longitud": -3.6191368288356527
+      },
+      "productos": [
+        {
+          "nombre": "Barra de pan",
+          "oferta": false,
+          "vigencia": null,
+          "habitual": true,
+          "unidades": 1,
+          "unidad_medida": "Unidad",
+          "precio": 0.45,
+          "adquirido": false
+        }
+      ]
+    }
+  ]
+},
+{
+  "producto": "Huevos",
+  "supermercados": [
+    {
+        "nombre": "Carrefour",
+        "direccion": "Av de las Suertes, s/n",
+        "geolocalizacion": {
+        "latitud": 40.36814959094298, 
+        "longitud": -3.601161972985976
+      },
+      "productos": [
+        {
+          "nombre": "Huevos camperos",
+          "oferta": false,
+          "vigencia": null,
+          "habitual": true,
+          "unidades": 6,
+          "unidad_medida": "Unidades",
+          "precio": 1.50,
+          "adquirido": false
+        }
+      ]
+    },
+    {
+        "nombre": "Dia",
+        "direccion": " C. de la Gavia Seca, 3",
+        "geolocalizacion": {
+        "latitud": 40.3803180417176,
+        "longitud": -3.6191368288356527
+      },
+      "productos": [
+        {
+          "nombre": "Huevos frescos",
+          "oferta": true,
+          "vigencia": {
+            "inicio": "2023-04-07",
+            "fin": "2023-04-13"
+          },
+          "habitual": false,
+          "unidades": 12,
+          "unidad_medida": "Unidades",
+          "precio": 2.99,
+          "adquirido": true
+        },
+        {
+          "nombre": "Huevos ecologicos",
+          "oferta": false,
+          "vigencia": null,
+          "habitual": true,
+          "unidades": 6,
+          "unidad_medida": "Unidades",
+          "precio": 2.49,
+          "adquirido": false
+        }
+    ]
+  }
+]
+},
+{
+    "producto": "Platanos",
+    "supermercados": [
+      {
+        "nombre": "Mercadona",
+        "direccion": "Av. de la Democracia, 3",
+        "geolocalizacion": {
+        "latitud": 40.38293898434755,
+        "longitud": -3.6258071729856525
+        },
+        "productos": [
+          {
+            "nombre": "Platanos canarios",
+            "oferta": false,
+            "vigencia": null,
+            "habitual": false,
+            "unidades": 5,
+            "unidad_medida": "Unidades",
+            "precio": 2.50,
+            "adquirido": true
+          }
+        ]
+      },
+      {
+          "nombre": "Dia",
+          "direccion": " C. de la Gavia Seca, 3",
+          "geolocalizacion": {
+          "latitud": 40.3803180417176,
+          "longitud": -3.6191368288356527
+        },
+        "productos": [
+          {
+            "nombre": "Platanos maduros ",
+            "oferta": true,
+            "vigencia": {
+              "inicio": "2023-04-07",
+              "fin": "2023-04-13"
+            },
+            "habitual": false,
+            "unidades": 12,
+            "unidad_medida": "Unidades",
+            "precio": 2.99,
+            "adquirido": false
+          }
+      ]
+    }
+  ]
+  },
+
+{
+"producto": "Champu",
+"supermercados": [
+  {
+      "nombre": "Carrefour",
+      "direccion": "Av de las Suertes, s/n",
+      "geolocalizacion": {
+      "latitud": 40.36814959094298, 
+      "longitud": -3.601161972985976
+    },
+    "productos": [
+      {
+        "nombre": "Champu Elvide Dream",
+        "oferta": false,
+        "vigencia": null,
+        "habitual": true,
+        "unidades": 1,
+        "unidad_medida": "Unidades",
+        "precio": 5.70,
+        "adquirido": false
+      }
+    ]
+  },
+  {
+      "nombre": "Dia",
+      "direccion": " C. de la Gavia Seca, 3",
+      "geolocalizacion": {
+      "latitud": 40.3803180417176,
+      "longitud": -3.6191368288356527
+    },
+    "productos": [
+      {
+        "nombre": "Champu Schwarzkopf",
+        "oferta": true,
+        "vigencia": {
+          "inicio": "2023-04-07",
+          "fin": "2023-04-13"
+        },
+        "habitual": false,
+        "unidades": 2,
+        "unidad_medida": "Unidades",
+        "precio": 7.99,
+        "adquirido": true
+      },
+      {
+        "nombre": "Pantene Pro V",
+        "oferta": false,
+        "vigencia": null,
+        "habitual": true,
+        "unidades": 1,
+        "unidad_medida": "Unidades",
+        "precio": 2.49,
+        "adquirido": false
+      }
+  ]
+}
+]
+}
+]
+}
